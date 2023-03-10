@@ -32,7 +32,7 @@ function setup() {
 }
 //--------------------------------------------------------------------
 function draw() {
-	background( frameCount % 256 );
+	//background( frameCount % 256 );
 	vol = mic.getLevel();
 
 	gestorVol.actualizar( vol );
